@@ -239,7 +239,7 @@ l_dataAcolhimento.place(x=246, y=41)
 e_dataAcolhimento = DateEntry(frame_baixo, background='#225f3a', width=19, borderwidth=2, date_pattern="dd/mm/yyyy")
 e_dataAcolhimento.place(x=250, y=61)
 
-#config PIA
+#config PIA (plano de atendimento individual)
 l_pia = Label(frame_baixo, text='PIA', anchor=NW, font=('Ivy 13 bold'), bg='#dbead5', relief='flat')
 l_pia.place(x=217, y=92)
 e_pia = ttk.Combobox(frame_baixo, values=list_pia, width=24)
